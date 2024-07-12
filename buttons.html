@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>button</title>
+
+
+
+
+  <style>
+    .subscribe-button {
+      background-color: rgb(209, 6, 6);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: opacity 0.15s;
+      vertical-align: top;
+    }
+
+    .subscribe-button:hover {
+      opacity: 0.8;
+    }
+
+    .subscribe-button:active {
+      opacity: 0.5;
+    }
+
+    .join-button {
+      background-color: white;
+      border-color: rgb(41, 118, 211);
+      border-style: solid;
+      border-width: 1px;
+      color: rgb(41, 118, 211);
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background-color 0.15s, color 0.15s;
+    }
+
+    .join-button:hover {
+      background-color: rgb(41, 118, 211);
+      color: white;
+    }
+
+    .join-button:active {
+      opacity: 0.7;
+    }
+
+    .tweet-button {
+      background-color: rgb(19, 127, 228);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 18px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      margin-left: 8px;
+      transition: box-shadow 0.15s;
+      vertical-align: top;
+    }
+
+    .tweet-button:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .uber-btn {
+      background-color: black;
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      cursor: pointer;
+      margin: 8px;
+      transition: opacity 0.15s;
+    }
+
+    .uber-btn:hover {
+      opacity: 0.8;
+    }
+
+    .amazon-btn {
+      background-color: rgb(255, 216, 20);
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 35px;
+      padding-right: 35px;
+      border-radius: 15px;
+      cursor: pointer;
+      margin: 8px;
+      transition: background-color 0.15s;
+    }
+
+    .amazon-btn:hover {
+      background-color: rgb(223, 186, 1);
+    }
+
+    .github-btn {
+      background-color: rgb(46, 164, 79);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 8px;
+      transition: box-shadow 0.15s;
+    }
+
+    .github-btn:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .bootstrap-get-started-btn {
+      background-color: rgb(121, 82, 179);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 5px;
+      transition: background-color 0.15s;
+    }
+
+    .bootstrap-get-started-btn:hover {
+      background-color: rgb(95, 61, 146);
+    }
+
+    .bootstrap-get-download-btn {
+      background-color: white;
+      color: rgb(108, 117, 125);
+      border-color: rgb(108, 117, 125);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 2px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 16px;
+      padding-right: 16px;
+      cursor: pointer;
+      transition: background-color 0.15s, color 0.15s;
+    }
+
+    .bootstrap-get-download-btn:hover {
+      background-color: rgb(108, 117, 125);
+      color: white;
+    }
+
+    .linkedin-apply-btn {
+      background-color: rgb(10, 102, 194);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 15px;
+      margin: 5px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }
+
+    .linkedin-apply-btn:hover {
+      background-color: rgb(9, 85, 161);
+    }
+
+    .linkedin-save-btn {
+      background-color: white;
+      color: rgb(10, 102, 194);
+      border-color: rgb(10, 102, 194);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 15px;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .linkedin-save-btn:hover {
+      border-width: 2px;
+    }
+  </style>
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+  <!-- exercises -->
+
+  <button class="linkedin-apply-btn">
+    Apply on company website
+  </button>
+
+  <button class="linkedin-save-btn">
+    Save
+  </button>
+
+  <button class="bootstrap-get-started-btn">
+    Get started
+  </button>
+
+  <button class="bootstrap-get-download-btn">
+    Download
+  </button>
+
+  <button class="github-btn">
+    Sign up
+  </button>
+
+  <button class="uber-btn">
+    Request now
+  </button>
+  <button class="amazon-btn">
+    Add to Cart
+  </button>
+
+
+  <button class="subscribe-button">
+    SUBSCRIBE
+  </button>
+
+  <button class="join-button">
+    JOIN
+  </button>
+
+  <button class="tweet-button">
+    Tweet
+  </button>
+
+
+
+</body>
+
+</html>
